@@ -1,0 +1,69 @@
+.container{
+    max-width: 1000px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    
+    
+}
+   
+
+
+div{
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+    
+}
+.w1{
+    background-color: darkviolet;
+    width: 340px;
+    height: 195px;
+    border-radius: 4%;
+    
+}
+
+
+.q1{
+    background-color: aqua;
+    width: 340px;
+    height: 195px;
+    border-radius: 4%;
+}
+.a1{
+    background-color: forestgreen;
+    width: 340px;
+    height: 195px;
+    border-radius: 4%;
+}
+
+.z1{
+    background-color: black;
+    width: 340px;
+    height: 195px;
+    border-radius: 4%;
+}
+.sim{
+    width: 15%;
+    margin-right: auto;
+   margin-bottom: 45px;
+   margin-left: 9px;
+
+}
+.visa{
+    width: 32%;
+    margin-left: auto;
+    margin-right: 12px;
+   margin-top: 50px;
+   margin-left: 9px;
+}
+p{
+    font-size: 22px;
+    
+}
