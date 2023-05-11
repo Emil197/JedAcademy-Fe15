@@ -1,69 +1,104 @@
-.container{
-    max-width: 1000px;
-    margin-inline: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    box-sizing: border-box;
+.container{ 
+    width: 1000px; 
+    height: 800px; 
+        margin: auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+     
+    flex-wrap: wrap; 
+} 
+div{ 
+    margin: 8px; 
+     
+} 
+ 
+.div1{ 
+    width: 350px; 
+    height: 210px; 
+    background-color: cornflowerblue; 
+    border-radius: 8px; 
+     
+     
+ 
+} 
+.div2{ 
+    width: 350px; 
+    height: 210px; 
+    background-color:deeppink; 
+    border-radius: 8px; 
+     
+     
+     
+} 
+ 
+.div3{ 
+    width: 350px; 
+    height: 210px; 
+    background-color:darkgreen; 
+    border-radius: 8px; 
+    margin-bottom: 400px; 
+     
+     
+     
+} 
+.div4{ 
+    width: 350px; 
+    height: 210px; 
+    background-color:darkgoldenrod; 
+    border-radius: 8px; 
+    margin-bottom: 400px; 
+     
+     
+     
+     
+} 
+#sim{ 
+    width: 50px; 
+    margin-top: 30px; 
+    margin-left: 10px; 
+    position: relative; 
+    bottom: 70px; 
+} 
+ 
+#visa{ 
+    width: 90px; 
     
-    
-}
+  margin-left: 50px; 
+  margin-top: 123px; 
+  position: relative; 
+  left: 135px; 
    
-
-
-div{
-    margin: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
    
-    
-}
-.w1{
-    background-color: darkviolet;
-    width: 340px;
-    height: 195px;
-    border-radius: 4%;
-    
-}
-
-
-.q1{
-    background-color: aqua;
-    width: 340px;
-    height: 195px;
-    border-radius: 4%;
-}
-.a1{
-    background-color: forestgreen;
-    width: 340px;
-    height: 195px;
-    border-radius: 4%;
-}
-
-.z1{
-    background-color: black;
-    width: 340px;
-    height: 195px;
-    border-radius: 4%;
-}
-.sim{
-    width: 15%;
-    margin-right: auto;
-   margin-bottom: 45px;
-   margin-left: 9px;
-
-}
-.visa{
-    width: 32%;
-    margin-left: auto;
-    margin-right: 12px;
-   margin-top: 50px;
-   margin-left: 9px;
-}
-p{
-    font-size: 22px;
-    
+ 
+   
+ 
+     
+} 
+#num{ 
+    position: relative; 
+    bottom: 98px; 
+    left: 16px; 
+    font-size: 26px; 
+    color: white; 
+} 
+#name{ 
+    position: relative; 
+    bottom: 120px; 
+    left: 16px; 
+    font-size: 26px ; 
+    color: white; 
+ 
+} 
+#valid{ 
+    position: relative; 
+    bottom: 140px; 
+    left: 16px; 
+    color: white; 
+} 
+#date{ 
+    position: relative; 
+    bottom: 157px; 
+    left: 16px; 
+    color: white; 
 }
