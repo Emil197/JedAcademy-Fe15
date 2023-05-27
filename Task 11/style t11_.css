@@ -19,6 +19,9 @@ padding: 0;
 font-size: 15px;
 font-weight: 800;
     }
+    button{
+        display: none;
+    }
     .menu + button {
         background-color: slategrey;
         border: none;
