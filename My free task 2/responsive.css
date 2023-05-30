@@ -1,0 +1,26 @@
+@media (max-width:900px) {
+    .box{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .logo img{
+        width: 10px;
+        height: 103px;
+        position: relative;
+        right: 7rem;
+
+    }
+    body{
+        background-color: rgb(173, 125, 103);
+    }
+}
+@media (min-width:900px){
+    .button i{
+        display: none;
+    }
+}
