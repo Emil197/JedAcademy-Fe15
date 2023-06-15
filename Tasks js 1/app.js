@@ -108,6 +108,21 @@
 
 // Task -18
 
+// let ad=(prompt("ad yaz"))
+// console.log("Salam",ad);
+
+
+// Task -19
+
+// let price=(prompt("530.90 azn daxil edin"))
+// console.log("530 manat 90 qepik");
+
+
+// Task -20
+
+// let maas=Number(prompt("Maasinizi daxil edin"));
+
+// console.log(maas-((maas*13)/100));
 
 
 
