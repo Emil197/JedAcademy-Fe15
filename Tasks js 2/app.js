@@ -12,6 +12,7 @@
 
 
 
+
 // Task -2
 
 
@@ -87,6 +88,13 @@
 //     console.log(i);
 //  }
 //  console.log("vurma neticesi : ", + vurma);
+
+
+
+
+
+
+
 
 
 
