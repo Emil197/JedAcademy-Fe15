@@ -1,0 +1,13 @@
+ul li.checked{
+    background: rgb(99, 111, 136);
+    color: wheat;
+    text-decoration: line-through;
+}
+.close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 12px 2px 16px;
+    background: wheat;
+    color: black;
+}
