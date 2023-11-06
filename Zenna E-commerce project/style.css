@@ -1,0 +1,1012 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+
+h4 {
+    font-size: 20px;
+    color: black;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+button.normal {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.white {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.black {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid black;
+    outline: none;
+    transition: 0.2s;
+}
+
+body {
+    width: 100%;
+}
+
+/* Header */
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: rgb(243, 211, 211);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.264);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(89, 87, 87);
+    transition: 0.4s ease;
+
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: rgba(100, 136, 237, 0.552);
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: rgba(100, 136, 237, 0.552);
+    ;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/* Shopping cart  */
+#navbar span {
+    font-size: 15px;
+    color: white;
+    padding: 2px;
+    margin-left: 4px;
+    margin-top: 3px;
+
+
+}
+
+#navbar .shopping-cart-list {
+    background-color: antiquewhite;
+    position: absolute;
+    width: 25rem;
+    right: -0.75rem;
+    top: 2.9rem;
+    padding: 1rem;
+    z-index: 1;
+}
+
+.mobile {
+    display: none;
+    align-items: center;
+
+}
+
+/* Carousel caption  */
+.carousel-caption h1,
+.carousel-caption p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Feature */
+
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(243, 211, 211);
+    ;
+
+}
+
+#feature .fe-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.13);
+    border: 1px solid rgb(222, 189, 189);
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+
+}
+
+#feature .fe-box h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 5px;
+    color: black;
+    background-color: cornflowerblue;
+    font-weight: bolder;
+}
+
+#feature .fe-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Products */
+#product-1 {
+    text-align: center;
+}
+
+#product-1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+#product-1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid rgb(222, 189, 189);
+    border-radius: 25px;
+    background-color: bisque;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0, 0.1);
+    margin: 15px 0;
+    transition: 0.2s ease;
+
+}
+
+#product-1 .pro a i {
+    color: chocolate;
+
+}
+
+#product-1 p {
+    font-weight: 600;
+    color: blue;
+
+
+}
+
+#product-1 .pro:hover {
+    box-shadow: 20px 20px 30px rgb(0, 0, 0, 0.5)
+}
+
+#product-1 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.des span {
+
+    font-weight: 600;
+}
+
+.des h5 {
+    color: blue;
+}
+
+.star i {
+    color: chocolate;
+}
+
+/* Afis */
+
+#afis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(images/afis1.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+#afis h1 {
+    color: white;
+    font-size: 40px;
+    padding: 10px 0;
+}
+
+#afis h1 span {
+    color: rgb(215, 238, 70);
+}
+
+#afis button:hover {
+    background-color: mediumturquoise;
+}
+
+#afis-2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#afis-2 .afis-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url(images/f.jpg);
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#afis-2 h4 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#afis-2 h2 {
+    color: white;
+    font-size: 37px;
+    font-weight: 800;
+}
+
+#afis-2 span {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.afis-box button:hover {
+    background-color: rgb(89, 149, 89);
+}
+
+#afis-2 .garderope-box {
+    background-image: url(images/garderope.jpg);
+
+}
+
+#afis-2 .garderope-box h4 {
+    color: black;
+}
+
+#afis-2 .garderope-box h2 {
+    color: black;
+}
+
+#afis-2 .garderope-box span {
+    color: black;
+}
+
+#afis-3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#afis-3 .afis-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url(images/winter\ afis\ menn.jpg);
+    min-width: 25%;
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#afis-3 h2 {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#afis-3 h3 {
+    color: rgb(255, 215, 105);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#afis-3 .afis-box2 {
+    background-image: url(images/hhodiejbb.jpg);
+}
+
+#afis-3 .afis-box2 h2 {
+    color: rgba(41, 94, 159, 0.983);
+}
+
+#afis-3 .afis-box2 h3 {
+    color: rgb(10, 11, 10);
+
+}
+
+#afis-3 .afis-box3 {
+    background-image: url(images/b4.jpg);
+}
+
+#subscribe {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(images/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: black;
+
+}
+
+#subscribe {
+    font-size: 25px;
+    color: white;
+    font-weight: 800;
+}
+
+#subscribe .form {
+    display: flex;
+    width: 40%;
+}
+
+#subscribe input {
+    height: 3.125rem;
+    padding: 0 1.25;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#subscribe button {
+    background-color: rgb(93, 93, 160);
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#subscribe .form button:hover {
+    background-color: yellow;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .pay img {
+    margin-bottom: 30px;
+}
+
+footer h4 {
+
+    padding-bottom: 20px;
+}
+
+footer p {
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .follow i:hover {
+    background-color: rgb(0, 184, 174);
+}
+
+
+footer .pay img {
+    margin-top: 170px;
+
+}
+
+#remove-mark {
+    display: none;
+
+}
+
+/* Responsive */
+
+@media(max-width:799px), (max-width:1000px) {
+    .section-p1 {
+        padding: 40px 40px;
+    }
+
+    .shopping-cart-list {
+        display: none;
+    }
+
+    #item-count {
+        display: none;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: antiquewhite;
+        box-shadow: 0 40px 60px black;
+        padding: 80px 0 0 10px;
+        transition: 0.4s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #header .mobile a i {
+        color: black;
+    }
+
+    .mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    .mobile i {
+        padding-left: 20px;
+    }
+
+    #remove-mark {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: black;
+    }
+
+    #shop {
+        display: none;
+    }
+
+    #feature {
+        justify-content: center;
+    }
+
+    #feature .fe-box {
+        margin: 15px 15px;
+    }
+
+    #product-1 .pro-container {
+
+        justify-content: space-evenly;
+
+    }
+
+    #product-1 .pro {
+        margin: 12px;
+    }
+
+    #afis {
+        height: 20vh;
+    }
+
+    footer .col {
+        margin: 12px;
+    }
+
+    #subscribe button {
+        width: 40%;
+        padding: 5px;
+    }
+
+    #about-head {
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 60%;
+        margin-bottom: 15px;
+    }
+#form-details{
+    padding: 40px;
+}
+#form-details form{
+    width: 50%;
+}
+#contact{
+    flex-direction: column;
+}
+#contact .contact-details{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#contact map{
+    width: 100%;
+}
+}
+
+@media (max-width:477px),
+(max-width:798px) {
+    #afis {
+        height: 40vh;
+    }
+
+    #afis-2 .afis-box {
+        height: 40vh;
+
+
+    }
+
+    .shopping-cart-list {
+        display: none;
+    }
+
+    #subscribe button {
+        width: 50%;
+
+    }
+
+    /* product single */
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #prodetails .single-pro-details {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    /* About */
+
+    #about-head {
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 60%;
+        margin-bottom: 15px;
+    }
+    #contact{
+        flex-direction: column;
+    }
+    #contact .contact-details{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    #contact map{
+        width: 100%;
+    }
+ 
+}
+
+/* Shop page */
+#shop-afis {
+    background-image: url(images/shopbanner.jpg);
+    width: 100%;
+    height: 25vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#shop-afis h1 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+#shop-afis span {
+    color: rgb(108, 7, 7);
+}
+
+#page-next {
+    text-align: center;
+}
+
+#page-next a {
+    text-decoration: none;
+    background-color: rgb(31, 94, 94);
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+
+}
+
+/* Single product */
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-image {
+    width: 40%;
+    margin-right: 50px;
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 30px;
+
+}
+
+#prodetails .single-pro-details h4 {
+    padding: 40px 0 20px;
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 30px;
+}
+
+#prodetails .single-pro-details h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(19, 117, 117);
+}
+
+#prodetails .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details button {
+    background-color: rgb(12, 88, 88);
+    color: white;
+}
+
+/* BLOG  page*/
+
+#shop-afis.blog-header {
+    background-image: url(images/how-start-a-lifestyle-blog.jpg);
+    height: 45vh;
+}
+
+.blog-header h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: 800;
+
+}
+
+#blog {
+    padding: 20px;
+}
+
+#blog .blog-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+
+}
+
+#blog .blog-img {
+    width: 50%;
+    margin-right: 40px;
+}
+
+#blog img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#blog .blog-details {
+    width: 50%;
+
+}
+
+#blog .blog-details p {
+    font-weight: 600;
+}
+
+#blog .blog-details a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: #465b52;
+    border-radius: 2px;
+    color: white;
+
+}
+
+#blog .blog-img:hover {
+    box-shadow: 2px 2px 20px 13px black;
+
+}
+
+.span-text {
+    display: none;
+}
+
+.show-more {
+    display: inline;
+}
+
+
+
+/* About Page */
+#shop-afis.about-header {
+    background-image: url(images/abbout.jpg);
+    height: 40vh;
+}
+
+#about-head img {
+    width: 100%;
+    height: auto;
+
+
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head div {
+    padding-left: 40px;
+}
+
+#team {
+    text-align: center;
+}
+
+#team .team-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+#team .team-box {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    margin: 15px 0;
+
+
+}
+
+#team .team-box img {
+    width: 60%;
+
+}
+
+.team-details span {
+    font-weight: 700;
+}
+
+.team-details .sosial-media-icons {
+    background-color: #465b52;
+}
+
+.sosial-media-icons i {
+    color: white;
+}
+
+/* Contact Page */
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#contact .contact-details {
+    width: 40%;
+
+}
+
+#contact .contact-details span {
+    font-size: 16px;
+
+}
+
+#contact .contact-details h2 {
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact .contact-details h3 {
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+#contact .contact-details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+#contact .contact-details li {
+    display: flex;
+    list-style: none;
+    padding: 10px 0;
+}
+
+#contact .contact-details li p {
+    margin: 0;
+    font-size: 15px;
+}
+
+#contact map {
+    width: 55%;
+    height: 400px;
+}
+
+#contact.map iframe {
+    width: 100%;
+    height: 100%;
+}
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#form-details form input,#form-details textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+#form-details  form button{
+    background-color: cornflowerblue;
+}
+#form-details  form button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    
+}
